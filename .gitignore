@@ -1,0 +1,48 @@
+# Dependencies and generated output. Keep lockfiles tracked.
+node_modules/
+.cache/
+/build/
+/dist/
+/coverage/
+*.tsbuildinfo
+*.log
+*.tmp
+
+# Credentials and machine-local configuration.
+.env
+.env.*
+!.env.example
+credentials/
+secrets/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Private application data and exports.
+/data/
+/private/
+/vault/
+/vaults/
+/.sourcegrove-data/
+/exports/
+/backups/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Local tool configuration.
+.agents/
+.aws/
+.codex/
+.gstack/
+.ssh/
+
+# Editor and operating-system files.
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
